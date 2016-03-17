@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(51,84,83);
+}
+
+.calculadora {
+    width: 90%;
+    height: 95vh;
+    margin: 0 auto;
+}
+
+.displayArray{
+    width: 100%;
+    height: 35%;
+}
+
+.buttons{
+    height: 65%;
+}
+
+.display {
+    width: 80%;
+    border: 0px;
+    text-align: right;
+    color: white;
+    padding: 0px 10%;
+}
+
+#display1 {
+    font-size: 60px;
+    height: 60%;
+    background-color: rgb(3,169,244);
+}
+
+#display2 {
+    font-size: 50px;
+    height: 40%;
+    background-color: rgb(0,130,204);
+}
+
+.row {
+    display: flex;
+    height: 25%;
+}
+
+button {
+    border: 0px;
+    outline-color: inherit;
+    padding: 0;
+    background-color: rgb(255,255,255);
+    width: 20%;
+    font-size: 50px;
+    margin: 0px;
+    color: rgb(158,158,158);
+}
+
+button::-moz-focus-inner {border: 0;}
+
+button:focus {outline:none;}
+
+button:hover {
+    background-color: rgb(30,210,255);
+    color: white;
+}
+
+button:active, .button-active {
+    background-color: rgb(0,149,214);
+    color: white;
+}
+
+.operation, .specialBut {
+    background-color: rgb(100,100,100);
+    color: white;
+}
+
+#delAll {
+    color: white;
+    background-color: rgb(210,90,90);
+}
+
+#delAll:hover {
+    background-color: rgb(200,40,40);
+}
+
+#delAll:active, .delAll-active {
+    background-color: rgb(255,0,0);
+}
+
+#del1 {
+    color: rgb(250, 150, 150);
+}
+
+.result{
+    background-color: rgb(80,240,255);
+    color: white;
+}
